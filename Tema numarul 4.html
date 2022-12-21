@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+</head>
+    <body>
+        <h1>Formular date personale</h1>
+        <hr>
+                    <p style="font-size:20px ;">Va rugam sa completati campurile de mai jos cu datele dumneavoastra exacte.</p>
+            <form>
+                <label for="fname">&nbsp;&nbsp;&nbsp; Numele:</label>
+                <input type="text" id="fname" placeholder="Exemplu:Eminescu...">
+                <input type="submit" value="Trimite">
+            </form>
+            <form>
+                <label for="fname">Prenumele:</label>
+                <input type="text" id="fname"placeholder="Exemplu:Mihai...">
+                <input type="submit" value="Trimite"> 
+            </form>
+                    <p style="font-size:20px ;">Adresa dumneavoastra de e-mail va fi folosita pentru a va trimite oferte si detalii care va priveste pe dumneavoastra in mod personal.</p>
+            <form>
+                <label for="E-mail">Tasteaza adresa de Email:</label>
+                <input type="email" id="email" name="email" placeholder="exemplu@yahoo.com">
+                <input type="reset" value="Sterge datele">
+                <input type="submit" value="Trimite">
+            </form>
+                    <p style="font-size:20px ;">Daca aveti Facebook, Instagram, MySpace, Youtube , va rugam introduceti URL-ul pagini dumneavoastra:</p>
+            <form>
+                <label for="homepage">Adauga URL-ul paginii:</label>
+                <input type="url" id="homepage" name="homepage" placeholder="http://www.exemplu.com">
+                <input type="reset" value="Sterge datele introduse">
+                <input type="submit" value="Trimite">
+             </form>
+                   <p style="font-size:20px ;">Varsta dumneavoastra va influenta motorul de cautare, cati ani aveti:</p>
+             <form>
+                <label for="age">Varsta:</label>
+                <input type="number" id="age" name="age" min="1" max="99" step="2" value="18"> 
+                <input type="reset" value="Sterge datele">
+            </form>
+                    <p>Alege activitatea ta favorita:</p>
+            <form>
+                <input type="radio" id="draw" name="fav_language" value="DRAW">
+                    <label for="draw">Desen</label>
+                    <br>
+                <input type="radio" id="music" name="fav_language" value="MUSIC" checked>
+                    <label for="music">Muzica</label>
+                    <br>
+                <input type="radio" id="movie" name="fav_language" value="MOVIE">
+                <label for="movie">Film</label>
+            </form>
+                    <p style="font-size:20px ;">Ce limbi straine cunoasteti?</p>
+                <form>   
+                    <input type="checkbox" id="english" name="known_languages" value="ENGLISH">
+                        <label for="english">Engleza</label>
+                        <br>
+                    <input type="checkbox" id="japanese" name="known_languages" value="JAPANESE" checked>
+                        <label for="japanese">Japoneza</label>
+                        <br>
+                    <input type="checkbox" id="italian" name="known_languages" value="ITALIAN">
+                        <label for="italian">Italiana</label>
+                        <br>
+                     <input type="checkbox" id="hungary" name="know_languages" value="HUNGARY">   
+                        <label for="hungary">Maghiara</label>
+                        <br>
+                    <input type="checkbox" id="spanish" name="know_languages" value="SPANISH">
+                        <label for="spanish">Spaniola</label>
+                        <br>
+                    <input type="checkbox" id="chinese" name="know_languages" value="CHINESE">
+                        <label for="chinese">Chineza</label>
+                    <p style="font-size:20px ;">Va rugam sa enumerati TOP 10 fructe favorite:</p>
+                <ol>
+                    <li>Capsuni</li>
+                    <li>Mere</li>
+                    <li>Pere</li>
+                    <li>Afine</li>
+                    <li>Banane</li>
+                    <li>Portocali</li>
+                    <li>Mandarine</li>
+                    <li>Prune</li>
+                    <li>Zmeura</li>
+                    <li>Ananas</li>
+                </ol>
+                    <p style="font-size:20px ;">A-ti avut cumva Ananas, Banane si Zmeura in fructele dumneavoastra favorite?</p>
+                <form>   
+                    <input type="checkbox" id="yes" name="favorite-colors" value="DA">
+                        <label for="yes">Da</label>
+                        <br>
+                    <input type="checkbox" id="maybe" name="favorite-colors" value="POATE" checked>
+                        <label for="maybe">Poate</label>
+                        <br>
+                    <input type="checkbox" id="no" name="favorite-colors" value="NU">
+                        <label for="no">Nu</label>
+                </form>
+                <br>
+                <form>
+                    <label for="fcolor">Selecteaza culoarea ta favorita:</label>
+                    <input type="color" id="favcolor" name="favcolor">
+                    <input type="submit" value="Trimite">
+                    <input type="reset" value="Sterge datele">
+                </form>        
+                <br>
+                <form>
+                    <label for="birthday">Ziua de nastere:</label>
+                    <input type="date" id="birthday"name="birthday">
+                    <input type="submit" value="Trimite">
+                </form>
+                    <p style="font-size:20px ;">Va rog selectati o ora cand sunteti liber ca un coleg sa va contacteze.</p>
+                <form>
+                    <label for="appt">Alege o ora:</label>
+                    <input type="time" id="appt" name="appt">
+                </form>
+                    <p>Preferati vacanta:</p>
+                <form>
+                    <input type="radio" id="spring" name="season" value="SPRING">
+                        <label for="spring">Primavara</label>
+                        <br>
+                    <input type="radio" id="summer" name="season" value="SUMMER">
+                        <label for="summer">Vara</label>
+                        <br>
+                    <input type="radio" id="autumn" name="season" value="AUTUMN">
+                        <label for="autumn">Toamna</label>
+                        <br>
+                    <input type="radio" id="winter" name="season" value="WINTER">
+                        <label for="winter">Iarna</label>   
+                </form>
+                    <p style="font-size:20px ;">Daca datele dumneavoastra au fost introduse corect va rog sa apasati butonul de SUBMIT.</p>
+                    <input type="submit" value="Submit">
+
+
+    </body>
+</html>
